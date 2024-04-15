@@ -1,9 +1,7 @@
 <template>
-  <div>
-   Hello
-    {{count}}
-    <button @click="count ++">click</button>
-  </div>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
 
 <script lang="ts" setup>
